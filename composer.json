@@ -1,0 +1,29 @@
+{
+    "name": "arthaeus/fhaha",
+    "description": "fha condo finder",
+    "license": "MIT",
+    "keywords": ["fha"],
+    "authors": [
+        {
+            "name": "Chris Davis",
+            "email": "arthaeus@gmail.com"
+        }
+    ],
+
+    "repositories": [
+        {
+            "url": "https://github.com/arthaeus/paylease-algorithms.git",
+            "type": "git"
+        }
+    ],
+
+    "require": {
+        "arthaeus/paylease-algorithms": "dev-master"
+    },
+    "autoload-dev": {
+      "classmap": ["src/"]
+    },
+    "autoload": {
+      "psr-4": {"": "src/"}
+    }
+}
